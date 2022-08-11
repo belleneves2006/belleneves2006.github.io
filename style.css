@@ -1,0 +1,162 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+/* #633E1D
+#ffd2ab
+#E6934C
+#1E5B69
+#54E0FF */
+
+body {
+ background-color: #E6934C;
+  text-align: center;
+}
+
+main {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #ffd2ab;
+  background-color: #633E1D;
+  text-decoration: none;
+  font-size: 60px; 
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+  color: #1E5B69;
+  background-color: #54E0FF;
+  margin-right: 20%;
+  margin-left: 20%;
+  border: 2px solid #633E1D;
+  font-family: Papyrus, "Copperplate", fantasy;
+}
+
+h4 {
+  color: #1E5B69;
+  background-color: #54E0FF;
+  margin-right: 20%;
+  margin-left: 20%;
+  border: 2px solid #633E1D;
+  font-size: 30px;
+  font-family: Papyrus, "Copperplate", fantasy;
+}
+
+#takeActionDesc { /* special look for the description on the What is it Like page */
+  font-size: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+p {
+  color: #633E1D;
+  background-color: #ffd2ab;
+  font-size: 22px;
+  line-height: 32px;
+  padding: 2px;
+  margin: 3px;
+  margin-bottom: 10px;
+  border: 2px solid #633E1D;
+  font-family: Garamond, "Times New Roman", serif;
+}
+
+.actTextTop { /* these three classes help to make it look like multiple paragraphs in one text box*/
+  margin-bottom: 0px;
+  border-bottom: 0px;
+}
+
+.actTextMiddle {
+  border-top: 0px;
+  border-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.actTextBottom { 
+  margin-top: 0px;
+  border-top: 0px;
+}
+
+/* STYLE IMAGES */
+img {
+  max-width: 50%;
+  border: 5px solid #633E1D;
+  margin: 10px;
+  padding: 2px;
+  background-color: #54E0FF;
+}
+
+#dogInCage {
+  max-width: 30%;
+}
+
+
+
+/* STYLE NAV BAR */
+
+ul {
+  list-style-type: none;
+  background-color: #1E5B69;
+  overflow: hidden;
+  padding: 1em;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 1em;
+  padding: 1em;
+  color: #54E0FF;
+  font-family: 'Bebas Neue', cursive;
+}
+
+li a:hover {
+  background-color: #4CE9E6;
+  color: #1E5B69;
+}
+
+/* STYLE BUTTONS */
+
+button {
+  color: #54E0FF;
+  background-color: #1E5B69;
+  padding-up: 20px;
+  padding-down: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  border-radius: 40%;
+  font-family: 'Bebas Neue', cursive;
+  border: none;
+}
+
+button:disabled { /* styles what a disabled button looks like */
+  color: #a9d0d9;
+  background-color: #818c8f;
+}
+
+/* ADD MORE! */
+
+#inputArea { /* styling for area around input boxes */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  border: 5px solid #633E1D;
+  margin: 20px;
+  font-family: 'Bebas Neue', cursive;
+  color: #1E5B69;
+  background-color: #54E0FF; 
+}
+
